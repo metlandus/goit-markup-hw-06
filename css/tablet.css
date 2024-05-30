@@ -1,0 +1,21 @@
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.container-svg {
+    display: none;
+}
+.stats-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.stats-list-item {
+    width: calc((100% - 48px) / 2);
+}
+.members-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}

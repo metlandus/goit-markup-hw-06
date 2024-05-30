@@ -17,6 +17,7 @@ body {
     font-size: 16px;
     background-color: #ffffff;
     line-height: 1.5;
+    min-width: 1158px;
 }
 h1 {
     color: white;
@@ -211,7 +212,7 @@ ul {
 .stats-list-item {
     width: calc((100% - 72px) / 4);
 }
-.stats .stats-list .container-svg {
+.container-svg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,7 +243,10 @@ ul {
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
+
 .flex-column {
     flex-direction: column;
 }
