@@ -1,7 +1,26 @@
+body{
+    max-width: 1024px;
+    font-size: 22px
+}
 .address-list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 2px;
+}
+h3 {
+    font-size: 1.5em;
+}
+.logo-nav {
+    font-size: 1em;
+}
+.main-heading {
+    font-size: 3.5em;
+    min-width: 700px;
+}
+.service {
+    height: 3.5em;
+    font-size: 1.1em;
+    min-width: 11em;
 }
 .container-svg {
     display: none;
@@ -14,8 +33,98 @@
 .stats-list-item {
     width: calc((100% - 48px) / 2);
 }
+.stat-h {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+.stat-p {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.section-heading {
+    font-size: 2.2em;
+}
+.members-p {
+    font-size: 1.1em;
+}
 .members-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.members {
+    width: calc((100% - 350px) / 2);
+}
+.members img {
+    width: 100%;
+}
+.social-media-links-item {
+    width: 2.5em;
+    height: 2.5em;
+}
+.icon {
+    width: 1.2em;
+    height: 1.2em;
+}
+.social-media {
+    margin-top: 0.em;
+    display: flex;
+    justify-content: center;
+    gap: 2.7em;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-list-item {
+    width: calc((100% - 48px) / 2);
+}
+.portfolio-img img {
+    width: 100%;
+}
+.footer-container-flex {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:left;
+}
+.footer-container {
+    margin-left: 3em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+.subscribe {
+    flex-basis: 100%;
+}
+.footer-p {
+    max-width: 18em;
+}
+.logo-footer {
+    font-size: 1.3em;
+}
+.social-media-p {
+    font-size: 1em;
+}
+.footer-social {
+    font-size: 1.2em;
+    width: 2.2em;
+    height: 2.2em;
+}
+.subscribe-p {
+    font-size: 1.1em;
+}
+.footer-input {
+    width: 50vw;
+    height: 12vh;
+    font-size: 0.8em
+}
+.footer-button {
+    font-size: 1em;
+    width: 30vw;
+    height: 12vh;
 }

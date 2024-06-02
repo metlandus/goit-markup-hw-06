@@ -91,7 +91,7 @@ ul {
 .nav .logo-nav .logo-studio-nav {
     color: #2e2f42;
 }
-.nav .logo-nav {
+.logo-nav {
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-weight: 700;
@@ -163,7 +163,7 @@ ul {
     margin: 0 auto;
 }
 
-.heading .service {
+.service {
     background-color: #4d5ae5;
     color: white;
     cursor: pointer;
@@ -189,7 +189,7 @@ ul {
     flex-direction: column;
     gap: 48px;
 }
-.heading .main-heading {
+.main-heading {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -373,7 +373,7 @@ ul {
     color: #404bbf;
     text-decoration: underline;
 }
-.footer .logo-footer {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -392,7 +392,7 @@ ul {
     color: #f4f4fd;
     padding: 100px 0;
 }
-.footer .footer-p {
+.footer-p {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
@@ -466,9 +466,8 @@ ul {
     color: #ffffff;
 }
 .footer-input::placeholder {
-    color: #ffffff;
+    color:rgba(255, 255, 255, 0.5);
 }
-
 .footer-button {
     display: flex;
     align-items: center;
