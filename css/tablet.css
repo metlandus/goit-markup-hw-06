@@ -1,12 +1,16 @@
-body{
-    max-width: 1024px;
-    font-size: 22px
+body {
+    max-width: 768px;
+    font-size: 22px;
 }
 .address-list {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
+.hamburger {
+    display: none;
+}
+
 h3 {
     font-size: 1.5em;
 }
@@ -69,7 +73,7 @@ h3 {
     height: 1.2em;
 }
 .social-media {
-    margin-top: 0.em;
+    margin-top: 0em;
     display: flex;
     justify-content: center;
     gap: 2.7em;
@@ -90,8 +94,8 @@ h3 {
 }
 .footer-container-flex {
     display: flex;
-    flex-wrap:wrap;
-    justify-content:left;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 .footer-container {
     margin-left: 3em;
@@ -120,11 +124,15 @@ h3 {
 }
 .footer-input {
     width: 50vw;
-    height: 12vh;
-    font-size: 0.8em
+    height: 8vh;
+    font-size: 0.8em;
 }
 .footer-button {
     font-size: 1em;
     width: 30vw;
-    height: 12vh;
+    height: 8vh;
+}
+.icon-close {
+    width: 0.45em;
+    height: 0.45em;
 }

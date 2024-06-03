@@ -59,9 +59,6 @@ ul {
     display: flex;
     align-items: center;
 }
-.nav ul {
-    display: flex;
-}
 .nav .logo-nav:active {
     color: #404bbf;
     text-decoration: underline;
@@ -110,6 +107,7 @@ ul {
 }
 .nav-list {
     gap: 40px;
+    display: flex;
 }
 .nav-list .stp {
     padding: 24px 0;
@@ -147,6 +145,10 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.hamburger {
+    display: none;
+}
+
 
 /* Main */
 
