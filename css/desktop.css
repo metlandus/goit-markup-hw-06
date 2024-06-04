@@ -1,4 +1,4 @@
-/* Global stiller */
+/* Global stiller
 *,
 *::before,
 *::after {
@@ -40,7 +40,7 @@ ul {
     list-style-type: none;
 }
 
-/* Header */
+    Header
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -99,7 +99,7 @@ ul {
     margin-right: 76px;
     color: #404bbf;
 }
-.nav ul li .stepped {
+.nav ul li .stp {
     letter-spacing: 0.02em;
 }
 .nav ul .stp:focus {
@@ -150,9 +150,9 @@ ul {
 }
 
 
-/* Main */
+    Main
 
-/* Heading Section First Section */
+    Heading Section First Section
 
 .heading {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -199,7 +199,7 @@ ul {
     max-width: 496px;
 }
 
-/* Stats Section Second Section */
+    Stats Section Second Section
 
 .stats ul li .stat-p {
     letter-spacing: 0.02em;
@@ -240,7 +240,7 @@ ul {
     overflow: hidden;
 }
 
-/* Team Section Third Section */
+    Team Section Third Section
 
 .team {
     background-color: #f4f4fd;
@@ -311,7 +311,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-/* Portfolio Section Fourth Section */
+    Portfolio Section Fourth Section
 
 .portfolio ul .portfolio-p {
     letter-spacing: 0.02em;
@@ -369,7 +369,7 @@ ul {
     transform: translateY(0%);
 }
 
-/* Footer */
+    Footer
 
 .footer .logo-footer:active {
     color: #404bbf;
@@ -495,7 +495,7 @@ ul {
     margin-left: 16px;
 }
 
-/* Modal */
+    Modal
 
 .modal {
     display: none;
@@ -669,4 +669,4 @@ ul {
     color: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-}
+} */

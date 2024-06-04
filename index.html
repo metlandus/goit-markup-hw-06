@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-        content="GoIT Personal Homework of Mete Civelek to be a personal portfolio website later on" />
+    <meta name="description" content="Homework" />
     <title>GoIT Homework</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,46 +15,48 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 425px)" />
-    <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 768px)" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1158px)" />
 </head>
 
 <body>
     <header class="header">
-        <div class="container display-container header-container">
+        <div class="header-container container">
             <nav class="nav">
-                <a href="" class="logo-nav">Web<span class="logo-studio-nav">Studio</span></a>
-                <ul class="nav-list">
-                    <li class="nav-list-item">
-                        <a href="./index.html" class="stp">Studio</a>
-                    </li>
-                    <li>
-                        <a href="" class="stp">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="" class="stp">Contacts</a>
-                    </li>
-                </ul>
+                <a href="" class="logo-nav">web<span class="logo-studio-nav">Studio</span></a>
+                <div class="nav-address">   
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a href="#" class="stp">Studio</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#" class="stp">Portfolio</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#" class="stp">Contacts</a>
+                        </li>
+                    </ul>
+                    <address class="address">
+                        <ul class="address-list">
+                            <li>
+                                <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:+110001111111" class="info">+11 (000) 111-11-11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <a href="#" class="icon hamburger">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
-            <address class="address">
-                <ul class="address-list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+110001111111" class="info">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-            </address>
-            <a href="#" class="icon hamburger">
-                <i class="fa fa-bars"></i>
-            </a>
         </div>
     </header>
     <main>
         <section class="heading">
-            <div class="container display-container heading-container">
+            <div class="heading-container">
                 <h1 class="main-heading">Effective Solutions for Your Business</h1>
                 <button type="button" class="service">Order Service</button>
             </div>
@@ -387,7 +388,7 @@
     <footer class="footer">
         <div class="container footer-container-flex">
             <div class="footer-container">
-                <a href="./index.html" class="logo-footer">Web<span class="logo-studio-footer">Studio</span></a>
+                <a href="#" class="logo-footer">Web<span class="logo-studio-footer">Studio</span></a>
                 <p class="footer-p">
                     Increase the flow of customers and sales for your business with digital
                     marketing & growth solutions.
