@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+    .nav-address {
+    }
+    .nav-address-button {
+        display: none;
+    }
+    .icon-close-nav:hover,
+    .icon-close-nav:focus {
+        fill: #ffffff;
+    }
+    .icon-close-nav {
+        fill: #2e2f42;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5em;
+        margin-bottom: 5em;
+        padding-top: 3em;
+    }
+}

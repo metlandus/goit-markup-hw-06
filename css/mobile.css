@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 375px) {
     /* Global stiller */
     *,
     *::before,
@@ -44,6 +44,7 @@
         left: 0;
         background-color: #ffffff;
         padding: 2em 1.5em;
+        z-index: 100;
     }
     .nav-address-button {
         position: absolute;
