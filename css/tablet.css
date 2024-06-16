@@ -48,18 +48,31 @@
         color: #404bbf;
     }
 
+    /*  Heading */
 
+    .service {
+        margin-top: 1vh;
+    }
 
     /*Stats */
 
     .stats-list {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4em;
     }
     .stats-list-item {
-        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        max-width: 45%;
     }
-
+    .stat-h {
+        align-self: self-start;
+    }
+    
+    /* Team */
 
     .members-list {
         display: flex;
@@ -73,7 +86,5 @@
         justify-content: center;
         max-width: 40%;
     }
-    .portfolio {
-        display: none;
-    }
+    
 }
