@@ -1,21 +1,79 @@
 @media screen and (min-width: 768px) {
-    .nav-address {
+    .nav-socials {
+        display: none;
+    }
+    .hamburger {
+        display: none;
     }
     .nav-address-button {
         display: none;
     }
-    .icon-close-nav:hover,
-    .icon-close-nav:focus {
-        fill: #ffffff;
+    .nav-address {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15vw;
     }
-    .icon-close-nav {
-        fill: #2e2f42;
-    }
+    .nav {
+        gap: 10%;
+        justify-content: center;
+    }   
     .nav-list {
         display: flex;
         flex-direction: row;
-        gap: 1.5em;
-        margin-bottom: 5em;
-        padding-top: 3em;
+        justify-content: center;
+        gap: 40px;
+    }
+    .container {
+        padding: 1em;
+    }
+    .stp {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .address-list a{
+        color: #434455;
+        text-decoration: none;
+        font-style: normal;
+    }
+    .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    .stp:hover,
+    .stp:focus,
+    .info:hover,
+    .info:focus {
+        color: #404bbf;
+    }
+
+
+
+    /*Stats */
+
+    .stats-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .stats-list-item {
+        max-width: 40%;
+    }
+
+
+    .members-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .members {
+        align-items: center;
+        justify-content: center;
+        max-width: 40%;
+    }
+    .portfolio {
+        display: none;
     }
 }

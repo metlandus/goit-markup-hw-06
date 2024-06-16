@@ -32,70 +32,71 @@
         margin: 2em auto;
     }
     /* Header */
-
-    .nav-address {
-        position: fixed;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #ffffff;
-        padding: 2em 1.5em;
-        z-index: 100;
-    }
-    .nav-address-button {
-        position: absolute;
-        top: 24px;
-        right: 24px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 24px;
-        height: 24px;
-        border-radius: 50%;
-        background-color: E7E9FC;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        cursor: pointer;
-        padding: 0;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .icon-close-nav:hover,
-    .icon-close-nav:focus {
-        fill: #ffffff;
-    }
-    .icon-close-nav {
-        fill: #2e2f42;
-    }
-    .nav-list {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5em;
-        margin-bottom: 5em;
-        padding-top: 3em;
-    }
-    .stp {
-        font-size: 3em;
-        font-weight: 700;
-        color: #2e2f42;
-    }
-    .address-list {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5em;
-    }
-    .info {
-        font-style: normal;
-        flex-direction: column;
-        font-weight: 500;
-        font-size: 1.5em;
-        color: #434455;
-    }
-    .logo-studio-nav {
-        color: #2e2f42;
+    @media screen and (max-width: 767px) {
+        .nav-address {
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #ffffff;
+            padding: 2em 1.5em;
+            z-index: 100;
+        }
+        .nav-address-button {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: E7E9FC;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            padding: 0;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .icon-close-nav:hover,
+        .icon-close-nav:focus {
+            fill: #ffffff;
+        }
+        .icon-close-nav {
+            fill: #2e2f42;
+        }
+        .nav-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            margin-bottom: 5em;
+            padding-top: 3em;
+        }
+        .stp {
+            font-size: 3em;
+            font-weight: 700;
+            color: #2e2f42;
+        }
+        .address-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+        }
+        .info {
+            font-style: normal;
+            flex-direction: column;
+            font-weight: 500;
+            font-size: 1.5em;
+            color: #434455;
+        }
+        .hamburger {
+            font-size: 1.5em;
+        }
     }
     .logo-nav {
         font-family: "Raleway", sans-serif;
@@ -107,9 +108,9 @@
         text-transform: uppercase;
         color: #404bbf;
     }
-    .hamburger {
-        font-size: 1.5em;
-    }
+    .logo-studio-nav {
+            color: #2e2f42;
+        }
     .header-container {
         display: flex;
         align-items: center;
@@ -131,7 +132,7 @@
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 1px 6px rgba(46, 47, 66, 0.08);
     }
-
+    
     /* Main Section */
     /* Hero */
 
@@ -142,6 +143,7 @@
         background-repeat: no-repeat;
         background-position: center;
         padding: 10em 0;
+        max-width: 100%;
         text-align: center;
     }
     .heading-container {
