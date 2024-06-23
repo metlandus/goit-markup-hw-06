@@ -107,15 +107,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 1em;
-        align-items: start;
-        justify-content: center;
-        padding: 0 1em;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5em;
     }
     .footer-logo-p {
+        padding-left: 1em;
         display: flex;
-        align-self:;
         align-items:start;
-        width: 40%;
+        width: 50%;
     }
     .social-media-container {
         display: flex;
@@ -139,5 +139,27 @@
     .icon-footer { 
         width: 30px;
         height: 30px;
+    }
+    .subscribe {
+        display: flex;
+        flex-direction: row;
+        gap: 4em;
+        padding: 0 1em;
+        
+    }
+    .footer-input {
+        width: 35vw;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .footer-button {
+        align-self: flex-end;
+    }
+
+    /* Modal */
+
+    .modal-content {
+        width: 50vw;
+        min-height: 584px;
     }
 }
