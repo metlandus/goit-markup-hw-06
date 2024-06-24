@@ -1,3 +1,58 @@
 @media screen and (min-width: 1280px) {
+
+    /* Navbar */
+    .address-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    /* Heading Section */
+
+    .heading-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+    }
+
+    /* Stats */
+
+    .stats {
+        padding:1em 4em;
+    }
     
+    .icon-stats {
+        display: block;
+    }
+    .container-svg {
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        padding: 1em 6em;
+        background-color: #F4F4FD;
+        border: 1px solid #8E8F99;
+    }
+    .stats-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5em;
+    }
+    .stats-list-item {
+        min-width: 264px;
+        padding: 0;
+        height: 25vh;
+    }
+    .stat-h {
+        font-size: 1.25em;
+    }
+    .stat-p {
+        font-size: 1em;
+        font-weight: 400;
+    }
 }
