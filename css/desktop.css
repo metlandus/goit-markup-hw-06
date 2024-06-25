@@ -10,13 +10,16 @@
         padding-left: 5vw;
         padding-right: 5vw;
         justify-content: space-between;
+        gap: 8vw;
     }
     .nav-address {
-        gap: 20vw;
         display: flex;
         justify-content: space-between;
+        width: 100vw;
     }
-    
+    .stp {
+        color: #2E2F42;
+    }
 
     /* Heading Section */
 
