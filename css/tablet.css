@@ -86,6 +86,9 @@
         justify-content: center;
         max-width: 40%;
     }
+    .social-media {
+        column-gap: 1.5em;
+    }
 
     /* Our Portfolio */
 

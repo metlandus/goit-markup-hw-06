@@ -6,6 +6,10 @@
         flex-direction: row;
         gap: 40px;
     }
+    .nav {
+        padding: 4em;
+        justify-content: space-between;
+    }
 
     /* Heading Section */
 
@@ -22,8 +26,9 @@
 
     .stats {
         padding:1em 4em;
+        min-height: 35vh;
     }
-    
+
     .icon-stats {
         display: block;
     }
@@ -54,5 +59,18 @@
     .stat-p {
         font-size: 1em;
         font-weight: 400;
+    }
+
+    /* Team Section*/
+    .members-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .members {
+        max-width: 264px;
     }
 }
