@@ -73,4 +73,51 @@
     .members {
         max-width: 264px;
     }
+    .social-media {
+        gap: 0.9em;
+    }
+    .social-media-links {
+        width: 2.75em;
+        height: 2.75em;
+    }
+    /* Portfolio Section */
+
+    .portfolio-list-item {
+        flex: 0 0 25%;
+    }
+
+    /* Footer */
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-logo-p {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4em
+    }
+    .footer-input {
+        width: 15vw;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .subscribe {
+        margin-bottom: 4em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .subscribe-container {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        gap: 1em
+    }
 }
